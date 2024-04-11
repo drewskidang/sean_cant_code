@@ -13,7 +13,28 @@ pip install llama-index-postprocessor-colbert-rerank # Install this after ingest
 pip install --quiet transformers torch # Necessary for model operations
 pip install llama-index-core
 pip install -U qdrant_client
+pip install chainlit
 ```
+For UI 
+```
+pip install -U llama-index
+pip install llama-index-embeddings-voyageai
+pip install llama-index-llms-cohere
+pip install llama-index-core
+pip install llama-index-postprocessor-colbert-rerank # Install this after ingesting data
+pip install -U qdrant_client
+pip install llama-index-vector-stores-qdrant 
+pip install chainlit
+```
+for ingest
+```
+pip install -U llama-index
+pip install llama-index-vector-stores-qdrant llama-index-readers-file
+pip install llama-parse
+pip install llama-index-core
+pip install -U qdrant_client
+```
+
 Step 2: Configure Environment Variables
 1. Copy the env.example file to a new file named .env in the root directory of your project.
 2. Open the .env file in a text editor and fill in the required environment variables. This file will typically include API keys, database URLs, and other sensitive configuration options that should not be hard-coded into your application.
