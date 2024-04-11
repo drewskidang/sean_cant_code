@@ -31,6 +31,8 @@ for ingest
 pip install -U llama-index
 pip install llama-index-vector-stores-qdrant llama-index-readers-file
 pip install llama-parse
+pip install llama-index-embeddings-voyageai
+
 pip install llama-index-core
 pip install -U qdrant_client
 ```
